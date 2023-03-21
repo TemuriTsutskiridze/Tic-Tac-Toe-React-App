@@ -62,12 +62,15 @@ body {
   font-weight: 700;
 }
 
-.board-row:after {
+.game-board {
+  margin-bottom: 30px;
+}
+.game-board .board-row:after {
   clear: both;
   content: "";
   display: table;
 }
-.board-row .square {
+.game-board .board-row .square {
   background: #fff;
   border: 1px solid #999;
   float: left;
